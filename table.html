@@ -1,0 +1,209 @@
+<!Doctype.html>
+<html>
+<head>
+	<title>Table with picture</title>
+</head>
+<body>
+<nav style="background-color:#f4fefd">
+	     <a href="index.html">HOME</a>
+	    <a href="table.html">TABLE</a> 
+	     <a href="activities.html">ACTIVITIES</a> 
+	<style class="nav-style">
+	    nav {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    a {
+        color: #1b2223;
+        margin: 10px;
+        text-decoration: none;
+        font-family: 'CustomFont', Arial, sans-serif;
+        font-weight: bold;
+    }
+	</style>
+	</nav>
+	<header>
+		<img id="display" src="paul.jpg", width="300px" height="300px">
+		<h1>Paul Jhon Magbanua</h1>		
+	</header>
+	<hr color="#000001" size="2" width="100%" align="center">
+	<main class="table-container">
+	<table border="1px">
+		<tr>
+			<th colspan="2">My Profile</th>
+		</tr>	
+		<tr>
+			<td><img class="table-image" src="tablepic.jpg", width="300px", height="300px"></td>	
+			<td></td>
+		</tr>	
+		<tr>
+		<td>Name:</td>
+		<td>Paul Jhon Magbanua</td>
+		</tr>	
+		<tr>
+			<td>Age:</td>
+			<td>** years old</td>	
+		</tr>		
+		<tr>
+			<td>Gender:</td>
+			<td>Male</td>
+		</tr>		
+		<tr>
+			<td>Civil Status</td>
+			<td>In-love sa Wright president</td>
+		</tr>	
+		<tr>
+			<td>Nationality:</td>
+			<td>Filipino</td>
+		</tr>	
+		<tr>
+			<td>Religion:</td>
+			<td>Baptist</td>
+		</tr>		
+		<tr>
+			<td>Contact Number:</td>
+			<td>09*********</td>
+		</tr>		
+		<tr>
+			<td>Email Address:</td>
+			<td>m********@gmail.com</td>
+		</tr>	
+		<tr>
+			<td>Address:</td>
+			<td>Barangay Maao Bago City</td>
+		</tr>	
+		<tr>
+			<td>School</td>
+			<td>I-Tech Computer Education Bago City Inc.</td>
+		</tr>	
+		<tr>
+			<td>Father's Name:</td>
+			<td>...</td>
+		</tr>	
+		<tr>
+			<td>Mother's Name:</td>
+			<td>...</td>
+		</tr>							
+	</table>
+	</main>
+	<div class="user-input">
+	    <form>
+	        <h1><span class="solid-text">Login</span></h1>
+          <label for="email"><b>Email</b></                    label><br>
+          <input type="text" id="email" name="username" placeholder="example@gmail.com" required><br>
+          <label for="password"><b>Password</b></label><br>
+          <input type="password" id="password" name="password" placeholder="enter your password" required><br>
+  <input type="submit" value="Submit">
+  
+      </form>
+	</div>
+</body>
+<footer>
+    <h3>Email: magbanuatx56@gmail.com</h3>
+    <h4>&copy; All Rights Reserved, 2023</h4>
+    
+    <style class="footer">
+        footer {
+        width: 100%;
+        height: 100px;
+        padding-top: 20px;
+        margin-top: 30px;
+        color: #86888a;
+        border-radius: 20px;
+        background-color: #f4fefd;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2px;
+    }    
+    </style>
+</footer>
+<style>   
+  .solid-text {
+      background-color: #0ef6cc;
+      color: #f4fefd;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 10px;
+  }
+  
+  #email, #password {
+      margin: 5px;
+      font-weight: heavy;
+      color: #f4fefd;
+  }
+    
+  .user-input {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      margin-top: 20px;
+      border-radius: 20px;
+      color: #f4fefd;
+      background-color: #3a4f50;
+      align-items: center;
+      text-align: center;
+      display: flex;     
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+      
+	body {
+	background-color: #1b2223;	
+}
+
+	#display {
+	border-radius: 50%;
+	border: 3px solid #3c5898;
+	object-fit: cover;
+}
+
+	table {
+	background-color: #f4fefd;
+	justify-content:center;
+	
+	margin-right: auto;
+	margin-left:auto;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+ 	header {
+	align-items: center
+	display: flex;
+	text-align: center;
+}
+
+ .table-image {
+ object-fit: cover;
+ border: 3px solid #3c5898;
+     
+} 
+ th, td {
+ border: 2px solid black;
+ padding: 8px;
+}
+
+ h1 {
+     color: #f4fefd;
+ }
+ 
+ .table-container {
+     background-color: #3a4f50;
+     border-radius: 20px;
+     padding: 20px;
+     width: 900px;
+     height: 900px; 
+     margin: auto;
+ }
+</style>
+</html>
